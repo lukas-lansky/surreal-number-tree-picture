@@ -96,7 +96,7 @@ for q in range(2, 10):
 makeAtree(chwh["eps"], 0, "-*", 0.8, ulevel=1, maxlevel=3, max2level=6)
 for cha in chwh:
     point(chwh[cha])
-    if cha == "third": text(chwh[cha], "1\over 3", "bot")
+    if cha == "third": text(chwh[cha], "2\over 3", "bot")
     elif cha == "inf+": text((chwh[cha][0], chwh[cha][1]-.1), "\omega", "bot")
     elif cha == "inf-": text(chwh[cha], "-\omega", "bot")
     elif cha == "eps": text((chwh[cha][0], chwh[cha][1]-.1), "\epsilon", "bot")
